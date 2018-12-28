@@ -1,0 +1,68 @@
+/*----------- site-wide standard styles ---------------*/
+
+body {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    background-color: #eae7dc;
+    color: #7a766c;
+}
+
+.bsuite-bg {
+    background-color: #ddcbb1;
+}
+
+/*----------- Nav ---------------*/
+
+.navbar {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    z-index: 10;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.fa-bars,
+.navbar a {
+    color: #7a766c;
+}
+
+.nav-item :hover {
+    color: #ccc5b3;
+}
+
+button:focus {
+    outline-color: #ccc5b3;
+}
+
+
+/*----------- Footer ---------------*/
+
+footer {
+    min-height: 120px;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+/*----------- Index Carousel ---------------*/
+
+.bsuite-carousel {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.carousel-inner {
+    height: 80%;
+}
+
+.carousel-item img {
+    height: 100%;
+}
+
+.carousel-indicators li {
+    background-color: #7a766c;
+}
