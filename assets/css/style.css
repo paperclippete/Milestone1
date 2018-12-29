@@ -28,11 +28,11 @@ body {
 }
 
 .nav-item :hover {
-    color: #ccc5b3;
+    color: #e98074;
 }
 
 button:focus {
-    outline-color: #ccc5b3;
+    outline-color: #e98074;
 }
 
 
@@ -41,11 +41,141 @@ button:focus {
 footer {
     min-height: 120px;
     margin: 0;
-    font-size: 0.8rem;
+    box-shadow: 0 -0.5rem 1rem rgba(0,0,0,.15);
+    z-index: 10;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer-info i {
+    font-size: 14px;
+    color: #7a766c;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-info i:hover {
+    color: #e98074;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li {
+    padding: 5px;
+    display: inline-block;
+    font-size: 18px;
+    
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    line-height: 7px;
+    text-align: center;
+    color: #eae7dc;
+    background-color: #7a766c;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #e98074;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.block-divider {
+    width: 95%;
+    height: 2px;
+    border: 0;
+    margin-top: 0;
+    background-color: #e98074;
+}
+
+.website-info {
+    font-size: 12px;
+}
+
+.website-info p {
+    margin-bottom: 0.1rem;
+}
+
+/*----------- Modal ---------------*/
+
+.modal-content .modal-header {
+    background-color: #ddcbb1;
+}
+
+.modal-content .modal-body {
+    background-color: #eae7dc
+}
+
+.form-control {
+    background-color: #f6f5f4;
+    color: #7a766c;
+}
+
+.form-control:focus {
+    border-color: #e98074;
+    box-shadow: 0 0 0 0.2rem #e98074;
+}
+
+.btn-primary {
+    background-color: #e98074;
+    border-color: #e98074;
+    color: #f6f5f4
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:hover {
+    background-color: #4d4533;
+    border-color: #4d4533;
+}
+
+.btn-primary:focus {
+    border-color: #e98074;
+    box-shadow: 0 0 0 0.2rem #e98074;
+}
+
+.btn-secondary {
+    background-color: #7a766c;
+    border-color: #7a766c;
+    color: #f6f5f4
+}
+
+.btn-secondary:hover {
+    background-color: #4d4533;
+    border-color: #4d4533;
 }
 
 
+/*----------- Index ---------------*/
 
+.bsuite-welcome {
+    padding: 15px 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.welcome-header,
+.welcome-statement {
+    position:relative;
+}
 
 
 /*----------- Index Carousel ---------------*/
@@ -57,6 +187,7 @@ footer {
 
 .carousel-inner {
     height: 80%;
+    z-index: -10;
 }
 
 .carousel-item img {
@@ -65,4 +196,26 @@ footer {
 
 .carousel-indicators li {
     background-color: #7a766c;
+    height: 5px;
 }
+
+/*----------- Responsive Design ---------------*/
+
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 1.2rem;
+    }
+    footer {
+        font-size: 18px;
+    }
+    .footer-info i {
+        font-size: 20px;
+    }
+    
+}
+    
+    
+    
+    
+    
+    
