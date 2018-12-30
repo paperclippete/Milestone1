@@ -210,23 +210,29 @@ footer {
 
 .about-us img {
     padding: 10px 5px;
-    
 }
 
+.about-us,
 .about-us-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 25px;
+}
+
+.about-us-info p {
+   padding: 10px 25px;
 }
 
 .about-us-info a img {
     width: 50%;
     height: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 0;
+}
+
+.about-us-ytube i {
+    padding-bottom: 15px;
 }
 
 .about-us-bd {
@@ -255,6 +261,23 @@ footer {
     line-height: 150%;
 }
 
+/*----------- Make-up ---------------*/
+
+.make-up-content {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.make-up-info {
+    padding-top: 15px;
+}
+
+
 /*----------- Responsive Design ---------------*/
 
 @media only screen and (min-width: 768px) {
@@ -271,6 +294,9 @@ footer {
         height: 70vh;
     }
     
+    .make-up-content {
+        height: 70vh;
+    }
 }
     
     
