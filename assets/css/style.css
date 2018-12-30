@@ -72,6 +72,7 @@ footer {
     
 }
 
+.social-links a i,
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -87,6 +88,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.social-links a i:hover,
 .social-links li a i:hover {
     background-color: #e98074;
     transition: all 0.35s ease-in-out;
@@ -164,7 +166,7 @@ footer {
 /*----------- Index ---------------*/
 
 .bsuite-welcome {
-    padding: 15px 5px;
+    padding: 15px 25px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -198,6 +200,33 @@ footer {
     background-color: #7a766c;
     height: 5px;
 }
+
+/*----------- About Us ---------------*/
+
+.about-us-content {
+    padding-top: 5rem;
+}
+
+.about-us img {
+    padding: 10px 5px;
+    
+}
+
+.about-us-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-us-info a img {
+    width: 50%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
 
 /*----------- Responsive Design ---------------*/
 
