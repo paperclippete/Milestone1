@@ -277,6 +277,14 @@ footer {
     padding-top: 15px;
 }
 
+/*----------- Treatments ---------------*/
+
+.treatment-content {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
 
 /*----------- Responsive Design ---------------*/
 
