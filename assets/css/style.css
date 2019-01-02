@@ -19,12 +19,13 @@ body {
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 2rem !important;
 }
 
 .fa-bars,
 .navbar a {
     color: #7a766c;
+    font-size: 1.25rem;
 }
 
 .nav-item :hover {
@@ -288,6 +289,11 @@ footer {
 
 .treatment-content h2 {
     text-align: center;
+    margin-top: 10px;
+}
+
+.treatment-content h4 {
+    margin-top: 1.5rem;
 }
 
 .treatment-listbd {
@@ -298,18 +304,22 @@ footer {
     padding: 10px 30px;
 }
 
-.voucher-container {
+.makeup-info,
+.tanning-info,
+.tinting-info,
+.waxing-info,
+.massage-info {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    padding: 0;
 }
+
 
 .voucher-box {
     border:#e98074 solid 2px;
     padding: 15px 15px;
     text-align: center;
-    margin-top: 20px;
+    font-size: 1.5rem;
     
 }
 
@@ -337,6 +347,12 @@ footer {
         height: 70vh;
     }
     
+    /*.treatments-info {
+        padding: 10px 70px;
+    }*/
+}
+
+@media only screen and (min-width: 992px) {
     .treatments-info {
         padding: 10px 70px;
     }
