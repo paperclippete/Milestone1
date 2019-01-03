@@ -11,6 +11,7 @@ body {
     background-color: #ddcbb1;
 }
 
+
 /*----------- Nav ---------------*/
 
 .navbar {
@@ -247,6 +248,11 @@ footer {
 
 /*----------- Location ---------------*/
 
+.location-content {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
 .map-location iframe {
     margin: 15px 0;
     width: 100%;
@@ -363,6 +369,18 @@ footer {
 
 /*----------- Responsive Design ---------------*/
 
+@media only screen and (max-width: 575px) {
+    .make-up-content img {
+    height: 56.5vh;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .make-up-content img {
+    height: 76.5vh;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     body {
         font-size: 1.2rem;
@@ -378,15 +396,11 @@ footer {
         height: 70vh;
     }
     
-    .make-up-content {
-        height: 66.5vh;
-    }
-    
     .voucher-box {
         font-size: 1.5rem;
     }
     
-}
+  }
 
 @media only screen and (min-width: 992px) {
     
@@ -401,6 +415,11 @@ footer {
     .btn-lg {
     font-size: 1.5rem;
     }
+    
+    .make-up-content {
+    height: 80.5vh;
+    }
+    
 }
     
  
