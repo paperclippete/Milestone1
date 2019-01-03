@@ -283,7 +283,7 @@ footer {
 /*----------- Treatments ---------------*/
 
 .treatment-content {
-    padding-top: 1rem;
+    padding-top: 5rem;
     padding-bottom: 1rem;
 }
 
@@ -320,6 +320,7 @@ footer {
     padding: 15px 15px;
     text-align: center;
     font-size: 1.5rem;
+    margin-top: 50px;
     
 }
 
@@ -346,10 +347,9 @@ footer {
     .make-up-content {
         height: 70vh;
     }
-    
-    /*.treatments-info {
-        padding: 10px 70px;
-    }*/
+    .carousel-inner {
+    height: 60%; 
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -358,8 +358,8 @@ footer {
     }
 }
     
-    
-    
+ 
+   
     
     
     
