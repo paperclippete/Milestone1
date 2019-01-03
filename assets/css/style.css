@@ -49,7 +49,8 @@ footer {
     padding-top: 15px;
 }
 
-.footer-info i {
+.footer-info a:not([href]):not([tabindex]),
+.footer-info a {
     font-size: 14px;
     color: #7a766c;
     transition: all 0.35s ease-in-out;
@@ -58,12 +59,14 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.footer-info i:hover {
+.footer-info a:not([href]):not([tabindex]):hover,
+.footer-info a:hover {
     color: #e98074;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+    text-decoration: none;
 }
 
 .social-links li {
@@ -337,7 +340,8 @@ footer {
     footer {
         font-size: 18px;
     }
-    .footer-info i {
+    .footer-info a:not([href]):not([tabindex]),
+    .footer-info a {
         font-size: 20px;
     }
     .map-location iframe {
