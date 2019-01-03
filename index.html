@@ -104,7 +104,7 @@
         </div>
         <div class="row">
             <div class="col website-info">
-                <p>&copy;<span id="year">2018</span> The Beauty Suite</p>
+                <p>&copy;2018 The Beauty Suite</p>
                 <p>Website by A.Gibson</p>
             </div>
         </div>
@@ -124,31 +124,35 @@
                     <form>
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Name">
+                            <input type="text" class="form-control" id="name" placeholder="Name" required>
                         </div>
                         <div class="form-group">
                             <label for="contactpreference">Contact Preference</label>
-                            <select class="form-control" id="contactpreference">
-                                <option>Phonecall</option>
-                                <option>Email</option>
-                                <option>Text</option>
-                            </select>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="emailradio" id="emailpreference" value="email" checked>Email</input>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="phoneradio" id="phonepreference" value="phone">Phone</input>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="textradio" id="textpreference" value="text">Text</input>
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
                         </div>
                         <div class="form-group">
                             <label for="phonenumber">Phone Number</label>
-                            <input type="text" class="form-control" id="phonenumber" placeholder="Phone Number">
+                            <input type="text" class="form-control" id="phonenumber" placeholder="Phone Number" required>
                         </div>
                         <div class="form-group">
                             <label for="message">Your message</label>
-                            <input type="text" class="form-control" id="message" placeholder="Your Message Here">
+                            <textarea class="form-control" id="messagetext" rows="3"></textarea>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Send</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Send</button>
                         </div>
                     </form>
                 </div>
@@ -159,7 +163,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script {var d = new Date(); var n = d.getFullYear(); document.getElementById("year").innerHTML = n;}></script>
 
 </body>
 

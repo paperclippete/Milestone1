@@ -105,7 +105,7 @@ footer {
     width: 95%;
     height: 2px;
     border: 0;
-    margin-top: 0;
+    margin-top: 10px;
     background-color: #e98074;
 }
 
@@ -190,6 +190,7 @@ footer {
     padding-left: 0px;
     padding-right: 0px;
 }
+
 
 .carousel-inner {
     height: 80%;
@@ -349,16 +350,17 @@ footer {
     }
     
     .make-up-content {
-        height: 70vh;
+        height: 66.5vh;
     }
-    .carousel-inner {
-    height: 60%; 
-    }
+    
 }
 
 @media only screen and (min-width: 992px) {
     .treatments-info {
         padding: 10px 70px;
+    }
+    .carousel-fade {
+    width: 95%;
     }
 }
     
