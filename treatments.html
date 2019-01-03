@@ -13,7 +13,7 @@
 
 <body>
     <!--Nav -->
-    <nav class="navbar navbar-expand-lg fixed-top bsuite-bg">
+    <nav class="navbar navbar-expand-lg bsuite-bg">
         <a class="navbar-brand" href="index.html">The Beauty Suite</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
@@ -42,23 +42,29 @@
             <div class="col-sm-12 col-md-4 col-lg-4  treatments-info">
                 <img src="assets/images/Onepixel_418887-min.jpg" class="img-fluid" alt="Facial Treatments"/>
                     <!--Facial Treatments Button-->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#facialTreatments">
+                <div class="container treatment-button">
+                    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#facialTreatments">
                       Facial Treatments
-                </button>
+                    </button>
+                </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4  treatments-info">
                 <img src="assets/images/Onepixel_1854979-min.jpg" class="img-fluid" alt="Body Treatments"/>
                     <!--Body Treatments Button-->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bodyTreatments">
+                <div class="container treatment-button">
+                    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#bodyTreatments">
                       Body Treatments
-                </button>
+                    </button>
+                </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4  treatments-info">
                 <img src="assets/images/Onepixel_917345-min.jpg" class="img-fluid" alt="Beauty Treatments"/>
                     <!--Beauty Treatments Button-->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#beautyTreatments">
+                <div class="container treatment-button">
+                    <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#beautyTreatments">
                       Beauty Treatments
-                </button>
+                    </button>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -73,12 +79,12 @@
     <!-- Facial Treatments Modal -->
     <div class="modal fade" id="facialTreatments" tabindex="-1" role="dialog" aria-labelledby="Facial Treatments List" aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
+            <div class="modal-content facial-content">
+                <div class="modal-header facial-header">
                     <h2>Facial Treatments</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body facial-body">
                     <h2>Dermalogica Facials</h2>
                     <hr class="block-divider treatment-listbd">
                     <h4>Face Mapping Skin Analysis</h4>
@@ -103,7 +109,7 @@
                         damage and helps to reduce acne.</p>
                     <p class="price"><strong>£30.00</strong></p>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer treatment-footer">
                     <button type="button" class="btn btn-primary"  data-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -113,12 +119,12 @@
     <!-- Body Treatments Modal -->
     <div class="modal fade" id="bodyTreatments" tabindex="-1" role="dialog" aria-labelledby="Body Treatments List" aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
+            <div class="modal-content body-content">
+                <div class="modal-header body-header">
                     <h2>Body Treatments</h2>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body body-body">
                     <h2>Body Treatments</h2>
                     <hr class="block-divider treatment-listbd">
                     <h4>Swedish Massage</h4>
@@ -191,11 +197,11 @@
                         <p><strong>£17.00</strong></p>
                     </div>
                     <div class="tanning-info">
-                        <p class="tanning-title"><strong>Fake Bake</strong><p>
-                        <p><strong>£17.00</strong><p>
+                        <p class="tanning-title"><strong>Fake Bake</strong></p>
+                        <p><strong>£17.00</strong></p>
                     </div>
                 </div>
-               <div class="modal-footer">
+               <div class="modal-footer treatment-footer">
                     <button type="button" class="btn btn-primary"  data-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -205,12 +211,12 @@
 <!-- Beauty Treatments Modal -->
     <div class="modal fade" id="beautyTreatments" tabindex="-1" role="dialog" aria-labelledby="Beauty Treatments List" aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
+            <div class="modal-content beauty-content">
+                <div class="modal-header beauty-header">
                     <h2>Beauty Treatments</h2>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body beauty-body">
                     <h2>Eyes and Brows</h2>
                     <hr class="block-divider treatment-listbd">
                     <h4>Henna Brow Treatment</h4>
@@ -263,185 +269,15 @@
                         <p><strong>£40.00</strong></p>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary"  data-dismiss="modal">Close</button>
+                <div class="modal-footer treatment-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
-                    
-                    
-                    
-                    
-                    
-            <!--<section class="container-fluid treatment-content">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 treatments-info">
-                <h2>Dermalogica Facials</h2>
-                <hr class="block-divider treatment-listbd">
-                <h4>Face Mapping Skin Analysis</h4>
-                <p>This complementary service is offered to help you realise your skin's goals and find products that will truly work for you.</p>
-                <h4>Pro Skin 30</h4>
-                <h6 class="treatment-time">30mins</h6>
-                <p>Our customised treatment on your time! Targeting your key skin concern for maximum impact in minimum time. This treatment is a firm favourite with those who have just 30 minutes and want visible results.</p>
-                <p class="price"><strong>£20.00</strong></p>
-                <h4>Pro Skin 60</h4>
-                <h6 class="treatment-time">60mins</h6>
-                <p>The ultimate treatment, customised with advanced products in a soothing environment made for relaxation. Ideal choice for those who want to address all skin concerns and achieve healthy glowing skin.</p>
-                <p class="price"><strong>£30.00</strong></p>
-                <h4>Bio Surface Skin Peel</h4>
-                <h6 class="treatment-time">75mins</h6>
-                <p>Bio Surface Skin Peel delivers visible results without the adverse side effects of aggressive chemical peels.<br> <strong>As this is an advanced treatment a consultation and patch test are required at least 24 hours prior to treatment.</strong></p>
-                <p class="price"><strong>£40.00</strong></p>
-            </div>
-            <div class="col-lg-6 col-md-6 treatments-info">
-                <h2>Opera LED</h2>
-                <hr class="block-divider treatment-listbd">
-                <h4>Light Therapy Facial</h4>
-                <h6 class="treatment-time">30mins</h6>
-                <p>The only LED light therapy mask with clinical studies. The mask uses 3 different wavelengths to provide a multitude of skin rejuvenation treatments to the face. Benefits of the treatment are skin toning and tightening. It improves sun
-                    damage and helps to reduce acne.</p>
-                <p class="price"><strong>£30.00</strong></p>
-                <h2>Body Treatments</h2>
-                <hr class="block-divider treatment-listbd">
-                <h4>Swedish Massage</h4>
-                <p>This massage will stimulate circulation, improve muscle tone, reduce muscular tension and soothe aches and pains.</p>
-                <div class="container massage-info">
-                    <h6 class="massage-title"><strong>Full Body</strong> | 60mins</h6>
-                    <h6><strong>£30.00</strong></h6>
-                </div>
-                <div class="container massage-info">
-                    <h6 class="massage-title"><strong>Back, Neck and Shoulders</strong> | 30mins</h6>
-                    <h6><strong>£20.00</strong></h6>
-                </div>
-                <div class="container massage-info">
-                    <h6 class="massage-title"><strong>Legs</strong> | 30mins</h6>
-                    <h6><strong>£20.00</strong></h6>
-                </div>
-                <h2>Hair Removal</h2>
-                <hr class="block-divider treatment-listbd">
-                <p>Please refrain from heat treatments 24 hours prior to waxing and thereafter.</p>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="waxing-info">
-                            <h6 class="waxing-title"><strong>Full Leg</strong></h6>
-                            <h6><strong>£20.00</strong></h6>
-                        </div>
-                        <div class="waxing-info">
-                            <h6 class="waxing-title"><strong>Half Leg</strong></h6>
-                            <h6><strong>£10.00</strong></h6>
-                        </div>
-                        <div class="waxing-info">
-                            <h6 class="waxing-title"><strong>Bikini</strong></h6>
-                            <h6><strong>from £8.00</strong></h6>
-                        </div>
-                        <div class="waxing-info">
-                            <h6 class="waxing-title"><strong>Underarm</strong></h6>
-                            <h6><strong>£6.00</strong></h6>
-                        </div>
-                        <div class="waxing-info">
-                            <h6 class="waxing-title"><strong>Eyebrow</strong></h6>
-                            <h6><strong>£6.00</strong></h6>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="waxing-info">
-                            <h6 class="waxing-title"><strong>Lip</strong></h6>
-                            <h6><strong>£4.00</strong></h6>
-                        </div>
-                        <div class="waxing-info">
-                            <h6 class="waxing-title"><strong>Chin</strong></h6>
-                            <h6><strong>£4.00</strong></h6>
-                        </div>
-                        <div class="waxing-info">
-                            <h6 class="waxing-title"><strong>Full Arm</strong></h6>
-                            <h6><strong>£15.00</strong></h6>
-                        </div>
-                        <div class="waxing-info">
-                            <h6 class="waxing-title"><strong>Half Arm</strong></h6>
-                            <h6><strong>£8.00</strong></h6>
-                        </div>
-                        <div class="waxing-info">
-                            <h6 class="waxing-title"><strong>Chest or Back</strong></h6>
-                            <h6><strong>£20.00</strong></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 col-md-6 treatments-info">
-                <h2>Eyes and Brows</h2>
-                <hr class="block-divider treatment-listbd">
-                <h4>Henna Brow Treatment</h4>
-                <p>Create beautiful brows using organic ingredients for a long lasting effect. <br><strong>Patch test required prior to treatment.</strong></p>
-                <p class="price"><strong>£20.00</strong></p>
-                <h4>Tinting Treatments</h4>
-                <p>A water resistant and semi-permanent alternative to mascara. Ideal for holidays and contact lens wearers. <br><strong>Patch test required 24 hours prior to treatment.</strong></p>
-                <div class="tinting-info">
-                    <h6 class="tinting-title"><strong>Eyelash Tint</strong></h6>
-                    <h6><strong>£8.00</strong></h6>
-                </div>
-                <div class="tinting-info">
-                    <h6 class="tinting-title"><strong>Eyebrow Tint</strong></h6>
-                    <h6><strong>£5.00</strong></h6>
-                </div>
-                <div class="tinting-info">
-                    <h6 class="tinting-title"><strong>Eyelash and Eyebrow Tint</strong></h6>
-                    <h6><strong>£10.00</strong></h6>
-                </div>
-                <br>
-                <div class="tinting-info">
-                    <h6 class="tinting-title"><strong>Eyebrow Shaping</strong></h6>
-                    <h6><strong>£6.00</strong></h6>
-                </div>
-                <br>
-                <h4>Nouveau LVL Lash Lift</h4>
-                <p>A revolutionary eyelash treatment which is designed to lift your natural lash at the root creating the effect of longer, lifted lashes.<br><strong>Patch test required 48 hours prior to treatment.</strong></p>
-                <p class="price"><strong>£35.00</strong></p>
-                <h4>Spray Tanning</h4>
-                <div class="tanning-info">
-                    <h6 class="tanning-title"><strong>St Tropez</strong></h6>
-                    <h6><strong>£17.00</strong></h6>
-                </div>
-                <div class="tanning-info">
-                    <h6 class="tanning-title"><strong>Fake Bake</strong></h6>
-                    <h6><strong>£17.00</strong></h6>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 treatments-info">
-                <h2>Professional Make-Up</h2>
-                <hr class="block-divider treatment-listbd">
-                <p>We are proud to offer professional make-up. We use superior products and up-to-date trends and techniques to create the most photogenic looks.<br><strong>We can travel to wedding locations, please contact us for details.</strong></p>
-                <div class="makeup-info">
-                    <h5 class="makeup-title">Evening Make-up</h5>
-                    <h5>£30.00</h5>
-                </div>
-                <div class="makeup-info">
-                    <h5 class="makeup-title">Bridal Make-up Consultation and Trial </h5>
-                    <h5>£30.00</h5>
-                </div>
-                <div class="makeup-info">
-                    <h5 class="makeup-title">Bridal Make-up </h5>
-                    <h5>£50.00</h5>
-                </div>
-                <div class="makeup-info">
-                    <h5 class="makeup-title">Bridesmaid Make-up </h5>
-                    <h5>£35.00</h5>
-                </div>
-                <div class="makeup-info">
-                    <h5 class="makeup-title">Make-up Lesson </h5>
-                    <h5>£40.00</h5>
-                </div>
-                <div class="voucher-box">
-                    <p>We also offer gift vouchers for specific treatments or monetary values.<br> <a href"#contactForm" data-toggle="modal" data-target="#contactForm"> Contact Us </a> for more information.</p>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
-    <!--Footer -->
-        <footer class="container-fluid bsuite-bg">
+    
+<!--Footer -->
+    <footer class="container-fluid bsuite-bg">
         <div class="row">
             <div class="col">
                 <div class="footer-info footer-location">

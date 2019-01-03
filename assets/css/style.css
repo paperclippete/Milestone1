@@ -292,25 +292,30 @@ footer {
 /*----------- Treatments ---------------*/
 
 .treatment-content {
-    padding-top: 5rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
-.treatment-content h2 {
+.beauty-body h2,
+.body-body h2,
+.facial-body h2 {
     text-align: center;
-    margin-top: 10px;
 }
 
-.treatment-content h4 {
-    margin-top: 1.5rem;
+
+.beauty-body h4,
+.body-body h4,
+.facial-body h4 {
+    margin-top: 30px;
 }
+
 
 .treatment-listbd {
-    width: 70%;
+    width: 85%;
 }
 
-.treatments-info {
-    padding: 10px 30px;
+.treatments-info img {
+    border: #ddcbb1 solid 2px;
 }
 
 .makeup-info,
@@ -323,13 +328,26 @@ footer {
     padding: 0;
 }
 
+.treatment-button {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.btn-lg {
+    font-size: 1rem;
+}
+
+.treatment-footer {
+    background-color:#ddcbb1;
+}
 
 .voucher-box {
     border:#e98074 solid 2px;
     padding: 15px 15px;
     text-align: center;
-    font-size: 1.5rem;
-    margin-top: 50px;
+    font-size: 1rem;
+    margin-top: 10px;
     
 }
 
@@ -340,6 +358,7 @@ footer {
 
 .price {
     text-align: right;
+    margin-bottom: 0px;
 }
 
 /*----------- Responsive Design ---------------*/
@@ -363,18 +382,24 @@ footer {
         height: 66.5vh;
     }
     
+    .voucher-box {
+        font-size: 1.5rem;
+    }
+    
 }
 
 @media only screen and (min-width: 992px) {
-    .treatments-info {
-        padding: 10px 70px;
-    }
+    
     .carousel-fade {
         width: 95%;
     }
     
     .bsuite-welcome {
         padding-left: 0px;
+    }
+    
+    .btn-lg {
+    font-size: 1.5rem;
     }
 }
     
