@@ -370,7 +370,11 @@ footer {
         padding: 10px 70px;
     }
     .carousel-fade {
-    width: 95%;
+        width: 95%;
+    }
+    
+    .bsuite-welcome {
+        padding-left: 0px;
     }
 }
     
