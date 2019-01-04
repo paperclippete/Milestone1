@@ -6,9 +6,9 @@ Welcome to my First Milestone Project - The Beauty Suite
 I have a friend with a local business. She uses social media but was interested in raising her 'online presence', making her business appear 'professional' to customers and suppliers and providing her customers a quick and easy way to find key information on her business.
 
 ## User Experience
-
-1. Strategy
-
+--------------
+Strategy
+--------------
 For the client/ owner the site should...
 * be professional and appealing - using colours, styles and fonts in keeping with the salon's branding
 * provide information on treatments and prices
@@ -29,7 +29,9 @@ User Stories
 * I am a customer who is planning a wedding, I'd like to be able to find out about bridal make-up at the salon and find the price of a consultation before booking an appointment
 * I have seen the salon and would like to find out more about it, I'd like to look at their social media accounts and find the contact details in order to make an appointment
 
-2. Scope
+--------
+Scope
+--------
 
 In order to create a good UX the Beauty Suite's site should...
 * be developed with a mobile-first approach in order to suit the target user group
