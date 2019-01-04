@@ -124,16 +124,23 @@ I fixed this by using several media queries in css to ensure that the page looke
 
 ## Deployment
 
-I saved my work regularly on the IDE Cloud 9. I also committed my code to GitHub at regular intervals. As someone completely new to coding and the technologies I've been using I have found it's taken me a while to get to grips with things.
-In hindsight, I do not feel that I committed my code to GitHub as much as I should have done to ensure version control. I understand I should have made a commit after coding each new feature and will now ensure that I do this as much as possible especially as my projects become more complex.
+I saved my work regularly on the IDE Cloud 9. I also committed my code to GitHub at regular intervals. As someone completely new to coding and the technologies I've been using, I have found it's taken me a while to get to grips with things.
+In hindsight, I do not feel that I committed my code to GitHub as much as I should have done to ensure version control or with commit messages that were specific and informing. I understand I should have made a commit after coding each new feature and will now ensure that I do this as much as possible, especially as my projects become more complex.
 
 In order to deploy my work I opened the terminal within Cloud 9.
+
 I initialised and set up a local git repository with the command 'git init'
+
 I added files to my git repo with the command 'git add .'
+
 I then commited files to the local repo with 'git commit' and wrote a message after -m, as time went on I started to be more specific with my messages as I know this would be beneficial in more complex projects or when working collaboratively.
+
 In order to commit my code to a remote repository I had to create a new project on GitHub
+
 I then typed into the terminal "git remote add origin" followed by "https://github.com/paperclippete/Milestone1"
+
 I would then use "git push -u master" to push my code to my master branch as I was only using one branch
+
 In GitHub I then published my master branch to GitHub pages, this is my deployed version. There should be no differences between the deployed version and the development version.
 
 I am aware that I will need to continue to increase my working knowledge of git and GitHub.
