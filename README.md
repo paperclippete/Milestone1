@@ -46,18 +46,26 @@ My initial mock-up on Figma is also saved there. This allowed the client to have
 
 Existing Features
 1. Beauty Suite navigation bar/ dropdown menu 
+
 I used Bootstrap 4 to create a navigation bar that would be responsive and look good on mobile. I didn't want too many choices or links in my navigation bar and I decided to keep the design neat by only linking to the pages within the site. I also ensured the navigation bar was fixed to the top of pages that scrolled to ensure the user did not have to navigate using the browser 'back' button.
 2. Beauty Suite footer
+
 I wanted a footer that allowed for quick links to the key information from the site i.e. location, price list and contact information. I used Bootstrap 4 grid to ensure it looked good in mobile and desktop formats. I also created links to the social media sites used by the client.
 3. Index.html
+
 The client and I wanted a professional and appealing landing page. I used a Bootstrap 4 carousel to slide through stock photos that outlined some of the services offered by the salon. 
 4. About Us.html 
+
 By using Bootstrap 4 I created a responsive grid layout to show images and information for the salon. The user can also find out more about the brands used by the salon - Dermalogica and Opera LED.
 5. Location.html
+
 By integrating Google Maps in an iframe, the user could see (with minimal effort) the exact location of the salon. The iframe is responsive and works equally well on mobile and desktop.
 6. Treatments.html
+
 By using display:flex I was able to ensure an easy to read treatment list which is responsive and easy to read on mobile and desktop.
+I then changed this to incorporate pop-up modals - see testing section
 7. Contact Us Modal
+
 Using Bootstrap 4 I included a modal contact form, this was to enable the user to enquire for information from the salon. (As it is a front-end project it is not 'wired-up' to anything - this will be a feature to implement before the site goes live)
 
 Features for the Future
@@ -69,46 +77,73 @@ Features for the Future
 Tehnologies Used
 1. HTML5 - used for creating content and basic layout and validated with W3C
 2. CSS3 - used for customised styling and layout and validated with W3C
-3. Bootstrap 4 https://getbootstrap.com/ - used for responsive layout (Grid), basic styling, dropdown Navbar, image carousel, contact modal (JavaScript was required for some of these features - linked to Bootstrap 4 in <script>)
+3. Bootstrap 4 https://getbootstrap.com/ - used for responsive layout (Grid), basic styling, dropdown Navbar, image carousel, contact modal (JavaScript was required for some of these features - linked to Bootstrap 4 and, through BS4, popper.js in <script>)
 4. Google Fonts https://fonts.google.com - used for customised fonts
 5. Font Awesome 5 https://fontawesome.com/ - used for links to make the site more appealing
 6. Figma https://www.figma.com - used as a wireframe tool to share initial styling with client
 7. Google Developer Tools, Stack-Overflow, Code-Institue Slack Community, Code-Institute module notes, Flex-box Froggy, W3C Validator, CSS Tricks - all used for reference when I encountered a bug or got stuck.
 8. OnePixel.com - Stock Images and TinyPNG.com - Image Compression
 
-Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+## Testing
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Throughout the process I continually tested the site, by saving my work in the IDE and running it in a browser. I used Google Developer Tools to ensure that my site was responsive and functioned in all screen sizes and that my styling was applied throughout.
+I asked a selection of people to test the site, some of whom were already Beauty Suite customers, mostly these tests were completed on mobile devices...
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+* they liked the design and layout of the site
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+"It looked professional and was in keeping with the branding of the salon"
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+* they liked that information could be found quickly
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+"The map looked good, I got to it through 'Find Us' on the menu at the top, it actually worked and showed you exactly where the salon was. I then tried the map icon at the bottom and it took me to the same information, very quick."
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+* the client liked that customers could download the price-list
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+"As soon as the site opened I scrolled to the bottom and found a link to download the price-list... that was quick!"
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+* a tester highlighted a bug - they could not launch the modal from iphone
 
-Credits
+I changed the footer links to include the associated text, however this doesn't seem to have fixed the problem - I will continue to look into this.
+
+* a tester found it difficult to read the treatments list, there was too much information
+
+I remedied this by creating pop-up modals instead, ensuring that the user only saw the information they required at that point.
+
+* testers did not enjoy makeup.html due to the images appearing very large in small screens
+
+I fixed this by using several media queries in css to ensure that the page looked good at every breakpoint.
+
+
+## Deployment
+
+I saved my work regularly on the IDE Cloud 9. I also committed my code to GitHub at regular intervals. As someone completely new to coding and the technologies I've been using I have found it's taken me a while to get to grips with things.
+In hindsight, I do not feel that I committed my code to GitHub as much as I should have done to ensure version control. I understand I should have made a commit after coding each new feature and will now ensure that I do this as much as possible especially as my projects become more complex.
+
+In order to deploy my work I opened the terminal within Cloud 9.
+I initialised and set up a local git repository with the command 'git init'
+I added files to my git repo with the command 'git add .'
+I then commited files to the local repo with 'git commit' and wrote a message after -m, as time went on I started to be more specific with my messages as I know this would be beneficial in more complex projects or when working collaboratively.
+In order to commit my code to a remote repository I had to create a new project on GitHub
+I then typed into the terminal "git remote add origin" followed by "https://github.com/paperclippete/Milestone1"
+I would then use "git push -u master" to push my code to my master branch as I was only using one branch
+In GitHub I then published my master branch to GitHub pages, this is my deployed version. There should be no differences between the deployed version and the development version.
+
+I am aware that I will need to continue to increase my working knowledge of git and GitHub.
+
+
+## Credits
+
 Content
-The text for section Y was copied from the Wikipedia article Z
+All content was sourced from The Beauty Suite with the owner's permission.
+
 Media
-The photos used in this site were obtained from ...
+The photos used in this site were obtained from OnePixel.com and The Beauty Suite with the owner's permission.
+
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from my friend and client. I also trawled through lots of local salon websites, looking for ideas on layouts, colour schemes and fonts.
+Pure Spa, based in Scotland https://www.purespauk.com/
+Park West Spa, a new salon in Lanarkshire http://www.parkwestspa.co.uk/
+Beauty Network, an established salon based in Lanarkshire http://www.beauty-network.co.uk/
+Zeste Beauty, based in Lanarkshire https://www.zestebeautyhamilton.co.uk/
+

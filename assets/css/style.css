@@ -11,6 +11,19 @@ body {
     background-color: #ddcbb1;
 }
 
+.index-content,
+.about-us-content,
+.location-content,
+.makeup-content {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.treatment-content {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
 
 /*----------- Nav ---------------*/
 
@@ -209,11 +222,6 @@ footer {
 
 /*----------- About Us ---------------*/
 
-.about-us-content {
-    padding-top: 5rem;
-    padding-bottom: 1rem;
-}
-
 .about-us img {
     padding: 10px 5px;
 }
@@ -248,10 +256,6 @@ footer {
 
 /*----------- Location ---------------*/
 
-.location-content {
-    padding-top: 5rem;
-    padding-bottom: 1rem;
-}
 
 .map-location iframe {
     margin: 15px 0;
@@ -297,10 +301,6 @@ footer {
 
 /*----------- Treatments ---------------*/
 
-.treatment-content {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
 
 .beauty-body h2,
 .body-body h2,
