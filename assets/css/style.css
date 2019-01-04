@@ -4,7 +4,7 @@ body {
     font-family: "Lora", serif;
     font-weight: 400;
     background-color: #eae7dc;
-    color: #7a766c;
+    color: #44423c;
 }
 
 .bsuite-bg {
@@ -41,7 +41,7 @@ body {
 
 .fa-bars,
 .navbar a {
-    color: #7a766c;
+    color: #44423c;
     font-size: 1.25rem;
 }
 
@@ -69,7 +69,7 @@ footer {
 .footer-info a:not([href]):not([tabindex]),
 .footer-info a {
     font-size: 14px;
-    color: #7a766c;
+    color: #44423c;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -102,7 +102,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #eae7dc;
-    background-color: #7a766c;
+    background-color: #44423c;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -146,7 +146,7 @@ footer {
 
 .form-control {
     background-color: #f6f5f4;
-    color: #7a766c;
+    color: #44423c;
 }
 
 .form-control:focus {
@@ -163,8 +163,8 @@ footer {
 .btn-primary:not(:disabled):not(.disabled).active, 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:hover {
-    background-color: #4d4533;
-    border-color: #4d4533;
+    background-color: #44423c;
+    border-color: #44423c;
 }
 
 .btn-primary:focus {
@@ -173,14 +173,14 @@ footer {
 }
 
 .btn-secondary {
-    background-color: #7a766c;
-    border-color: #7a766c;
+    background-color: #44423c;
+    border-color: #44423c;
     color: #f6f5f4
 }
 
 .btn-secondary:hover {
-    background-color: #4d4533;
-    border-color: #4d4533;
+    background-color: #e98074;
+    border-color: #e98074;
 }
 
 
@@ -214,7 +214,7 @@ footer {
 }
 
 .carousel-indicators li {
-    background-color: #7a766c;
+    background-color: #44423c;
     height: 5px;
 }
 

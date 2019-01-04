@@ -89,6 +89,7 @@ Tehnologies Used
 6. Figma https://www.figma.com - used as a wireframe tool to share initial styling with client
 7. Google Developer Tools, Stack-Overflow, Code-Institue Slack Community, Code-Institute module notes, Flex-box Froggy, W3C Validator, CSS Tricks - all used for reference when I encountered a bug or got stuck.
 8. OnePixel.com - Stock Images and TinyPNG.com - Image Compression
+9. Color Picker https://htmlcolorcodes.com/color-picker/ - used to find color codes and colors that complemented each other
 
 
 ## Testing
