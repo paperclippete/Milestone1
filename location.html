@@ -64,8 +64,8 @@
         </div>
     </section>
 
-    <!--Footer -->
-        <footer class="container-fluid bsuite-bg">
+<!--Footer -->
+    <footer class="container-fluid bsuite-bg">
         <div class="row">
             <div class="col">
                 <div class="footer-info footer-location">
@@ -80,8 +80,8 @@
             </div>
             <div class="col">
                 <div class="footer-info footer-contact">
-                    <a href"#contactForm" data-toggle="modal" data-target="#contactForm"><i class="fas fa-envelope" ></i><br>Contact Us<br></a>
-                    <a href="tel:07500 938211"><i class="fas fa-phone"></i><br>07500 938211</a>
+                    <a data-toggle="modal" data-target="#contactForm"><i class="fas fa-envelope" ></i><br>Contact Us<br></a>
+                    <a href="tel:07555 9382111"><i class="fas fa-phone"></i><br>07555 9382111</a>
                 </div>
             </div>
         </div>
@@ -101,8 +101,8 @@
             </div>
         </div>
     </footer>
-    
-<!-- Modal -->
+
+    <!-- Modal -->
     <div class="modal fade" id="contactForm" tabindex="-1" role="dialog" aria-labelledby="contactForm" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -118,16 +118,19 @@
                             <label for="name">Name</label>
                             <input type="text" class="form-control" id="name" placeholder="Name" required>
                         </div>
-                        <div class="form-group">
-                            <label for="contactpreference">Contact Preference</label>
+                        <p>Contact Preference</p>
+                        <div class="form-group">    
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="emailradio" id="emailpreference" value="email" checked>Email</input>
+                                <input class="form-check-input" type="radio" name="optradio" id="emailpreference" value="contactpreference1" checked>
+                                <label class="form-check-label" for="emailpreference"> Email </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="phoneradio" id="phonepreference" value="phone">Phone</input>
+                                <input class="form-check-input" type="radio" name="optradio" id="phonepreference" value="contactpreference2">
+                                <label class="form-check-label" for="phonepreference"> Phone </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="textradio" id="textpreference" value="text">Text</input>
+                                <input class="form-check-input" type="radio" name="optradio" id="textpreference" value="contactpreference3">
+                                <label class="form-check-label" for="textpreference"> Text Message  </label>
                             </div>
                         </div>
                         <div class="form-group">
@@ -139,7 +142,7 @@
                             <input type="text" class="form-control" id="phonenumber" placeholder="Phone Number" required>
                         </div>
                         <div class="form-group">
-                            <label for="message">Your message</label>
+                            <label for="messagetext">Your message</label>
                             <textarea class="form-control" id="messagetext" rows="3"></textarea>
                         </div>
                         <div class="modal-footer">

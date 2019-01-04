@@ -11,14 +11,17 @@ body {
     background-color: #ddcbb1;
 }
 
-.index-content,
+.welcome-content {
+    padding-top: 4rem;
+    }
+
 .about-us-content,
-.location-content,
-.make-up-content {
+.location-content {
     padding-top: 5rem;
     padding-bottom: 1rem;
 }
 
+.make-up-content,
 .treatment-content {
     padding-top: 6rem;
     padding-bottom: 2rem;
@@ -190,11 +193,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     
-}
-
-.welcome-header,
-.welcome-statement {
-    position:relative;
 }
 
 

@@ -144,9 +144,11 @@ Content
 
 All content was sourced from The Beauty Suite with the owner's permission.
 
+
 Media
 
 The photos used in this site were obtained from OnePixel.com and The Beauty Suite with the owner's permission.
+
 
 Acknowledgements
 
