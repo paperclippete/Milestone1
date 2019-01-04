@@ -48,22 +48,28 @@ Existing Features
 1. Beauty Suite navigation bar/ dropdown menu 
 
 I used Bootstrap 4 to create a navigation bar that would be responsive and look good on mobile. I didn't want too many choices or links in my navigation bar and I decided to keep the design neat by only linking to the pages within the site. I also ensured the navigation bar was fixed to the top of pages that scrolled to ensure the user did not have to navigate using the browser 'back' button.
+
 2. Beauty Suite footer
 
 I wanted a footer that allowed for quick links to the key information from the site i.e. location, price list and contact information. I used Bootstrap 4 grid to ensure it looked good in mobile and desktop formats. I also created links to the social media sites used by the client.
+
 3. Index.html
 
 The client and I wanted a professional and appealing landing page. I used a Bootstrap 4 carousel to slide through stock photos that outlined some of the services offered by the salon. 
+
 4. About Us.html 
 
 By using Bootstrap 4 I created a responsive grid layout to show images and information for the salon. The user can also find out more about the brands used by the salon - Dermalogica and Opera LED.
+
 5. Location.html
 
 By integrating Google Maps in an iframe, the user could see (with minimal effort) the exact location of the salon. The iframe is responsive and works equally well on mobile and desktop.
+
 6. Treatments.html
 
 By using display:flex I was able to ensure an easy to read treatment list which is responsive and easy to read on mobile and desktop.
 I then changed this to incorporate pop-up modals - see testing section
+
 7. Contact Us Modal
 
 Using Bootstrap 4 I included a modal contact form, this was to enable the user to enquire for information from the salon. (As it is a front-end project it is not 'wired-up' to anything - this will be a feature to implement before the site goes live)
@@ -135,15 +141,22 @@ I am aware that I will need to continue to increase my working knowledge of git 
 ## Credits
 
 Content
+
 All content was sourced from The Beauty Suite with the owner's permission.
 
 Media
+
 The photos used in this site were obtained from OnePixel.com and The Beauty Suite with the owner's permission.
 
 Acknowledgements
+
 I received inspiration for this project from my friend and client. I also trawled through lots of local salon websites, looking for ideas on layouts, colour schemes and fonts.
+
 Pure Spa, based in Scotland https://www.purespauk.com/
+
 Park West Spa, a new salon in Lanarkshire http://www.parkwestspa.co.uk/
+
 Beauty Network, an established salon based in Lanarkshire http://www.beauty-network.co.uk/
+
 Zeste Beauty, based in Lanarkshire https://www.zestebeautyhamilton.co.uk/
 
