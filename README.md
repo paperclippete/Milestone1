@@ -1,6 +1,13 @@
 Welcome to my First Milestone Project - The Beauty Suite
 =======================================================
 
+## Grading
+The breakdown of your marks for each assessment criterion (graded from 0 to 5) are as follows:
+Project Purpose: 5, UX design: 3, Suitability for purpose: 5, Navigation: 5, Ease of Use: 5, Information Architecture: 5, Responsive Design: 5, Image Presentation: 5, Colour scheme and typography: 5, Appropriate use of HTML: 5, Appropriate use of CSS: 5, Directory Structure and File Naming: 5, Version Control: 4, Testing implementation: 4, Testing write-up: 4, Readme file: 4, Comments: 5, Deployment implementation: 5, Deployment write-up: 5
+
+Your percentage grade for this project is 94.0%. Please note that the median grade our students get, corresponding to a project that meets the expectations across all criteria, is approximately 65%.
+
+
 ## Overview
 
 I have a friend with a local business. She uses social media but was interested in raising her 'online presence', making her business appear 'professional' to customers and suppliers and providing her customers a quick and easy way to find key information on her business.
